@@ -1,0 +1,46 @@
+body{
+    background:rgb(64, 169, 218);
+}
+.container{
+    border:2px solid black;
+    
+    width:95%;
+    height:100vh;
+    display:flex;
+    
+}
+.quotes{
+    border:1px solid black;
+    width:80%;
+    height:60%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    background-color: #f4edea;
+    border:10px solid #f4d1ae;
+}
+.button{
+    margin-top:20px;
+    padding:5px;
+    background:rgb(89, 89, 148);
+    border-radius: 6px;;
+    cursor: pointer;
+}
+.btn{
+    text-align:center;
+}
+.button:hover{
+    box-shadow: 2px 2px black;
+}
+.quotes p, .quotes h3{
+    font-size:1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p,.quotes h3{
+        font-size:1rem;
+    }
+}
